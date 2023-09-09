@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coffee Shop Landing page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="task01.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+          <a href="#home-sec">
+            <img
+            src="logo1.png"
+            alt="Company Logo"
+            id="header-img"
+        />
+          </a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="flat.webp" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Fresh, Tasty, Heavenly.</h1>
+          <h2>
+            100% Organic, vivid varieties of coffee beans grown in Kashmir aka The
+            Heaven of Earth.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+           Coffee is a beverage prepared from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content. It has the highest sales in the world market for hot drinks.[2]
+
+The seeds of the Coffea plant's fruits are separated to produce unroasted green coffee beans. The beans are roasted and then ground into fine particles that are typically steeped in hot water before being filtered out, producing a cup of coffee. It is usually served hot, although chilled or iced coffee is common. Coffee can be prepared and presented in a variety of ways (e.g., espresso, French press, caffè latte, or already-brewed canned coffee). Sugar, sugar substitutes, milk, and cream are often added to mask the bitter taste or enhance the flavor.
+          </p>
+          <img src="instant.webp"/>
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="cortado.webp" alt="photo of amber apples" />
+            <h4>Cortado</h4>
+            <p>
+              The cortado is relatively new in the world of coffee and many get it confused with a flat white. So, what is a cortado and what makes it different?
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="iced coffee.jpeg"
+            />
+            <h4>Iced Coffee</h4>
+            <p>
+              On a hot summer's day, is there anything better than sipping on an iced coffee?
+            </p>
+          </div>
+          <div class="tile">
+            <img src="mocha.webp"/>
+            <h4>Mocha</h4>
+            <p>
+             Deliciously sweet, nutty and chocolatey. Find out what is a mocha, where it came from & how it's different.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="Americano.webp"/>
+            <h4>Americano</h4>
+            <p>
+             The americano is often mistaken for just a standard black coffee, but it's so much more than that.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="irish.webp"/>
+            <h4> Irish</h4>
+            <p>
+              You will recognise an Irish coffee as it is served in a distinctive toddy glass, with a generous layer of cream.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="cold.webp"/>
+            <h4>Cold Brew</h4>
+            <p>
+              Cold brew coffee has taken the world by storm in recent years, but what is it and how does it differ from an iced coffee?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We provide fresh coffee with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Yogalakshmi</a>
+    </footer>
+  </body>
+</html>
